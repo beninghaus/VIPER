@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AccessEntity async="false" continueOnError="false" enabled="true" name="AccessAppDomain">
+    <DisplayName>AccessAppDomain</DisplayName>
+    <EntityIdentifier ref="request.queryparam.vzvkey" type="consumerkey"></EntityIdentifier>
+    <EntityType value="app"></EntityType>
+</AccessEntity>
+

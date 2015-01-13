@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="glympse">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1421103477020</CreatedAt>
+    <CreatedBy>jbeninghaus@constratus.com</CreatedBy>
+    <Description>Verizon Ventures proxy - Glympse</Description>
+    <DisplayName>glympse</DisplayName>
+    <LastModifiedAt>1421103477020</LastModifiedAt>
+    <LastModifiedBy>jbeninghaus@constratus.com</LastModifiedBy>
+    <Policies>
+        <Policy>AccessAppDomain</Policy>
+        <Policy>ApplyBasicAuth</Policy>
+        <Policy>AssignApiKey</Policy>
+        <Policy>ReadProxyConfiguration</Policy>
+        <Policy>RemoveVzvKey</Policy>
+        <Policy>RetrieveAppAttributes</Policy>
+        <Policy>SelectProxyApiKeyMap</Policy>
+        <Policy>VerifyVzvKey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://SelectProxyApiKeyMap.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

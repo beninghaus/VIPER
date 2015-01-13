@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="urbanairship">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1420543842360</CreatedAt>
+    <CreatedBy>jbeninghaus@constratus.com</CreatedBy>
+    <Description>Verizon Ventures proxy - Urban Airship</Description>
+    <DisplayName>urbanairship</DisplayName>
+    <LastModifiedAt>1420544768539</LastModifiedAt>
+    <LastModifiedBy>jbeninghaus@constratus.com</LastModifiedBy>
+    <Policies>
+        <Policy>AccessAppDomain</Policy>
+        <Policy>ApplyBasicAuth</Policy>
+        <Policy>ReadProxyConfiguration</Policy>
+        <Policy>RemoveVzvKey</Policy>
+        <Policy>RetrieveAppAttributes</Policy>
+        <Policy>SelectProxyApiKeyMap</Policy>
+        <Policy>VerifyVzvKey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://SelectProxyApiKeyMap.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>

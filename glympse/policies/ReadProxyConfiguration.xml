@@ -1,0 +1,13 @@
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" mapIdentifier="ProxyConfiguration" name="ReadProxyConfiguration">
+    <DisplayName>ReadProxyConfiguration</DisplayName>
+    <Scope>apiproxy</Scope>
+    <FaultRules/>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>-1</ExpiryTimeInSecs>
+    <Get assignTo="whichProxy" index='1'>
+      <Key>
+        <Parameter>whichProxy</Parameter>
+      </Key>
+   </Get>
+</KeyValueMapOperations>

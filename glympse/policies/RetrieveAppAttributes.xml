@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="true" enabled="true" name="RetrieveAppAttributes">
+    <DisplayName>RetrieveAppAttributes</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Source>AccessEntity.AccessAppDomain</Source> 
+    <XMLPayload stopPayloadProcessing="false">
+        <Variable name="urbanairship.application.key" type="string">
+            <XPath>/App/Attributes/Attribute[Name='urbanairship.application.key']/Value/text()</XPath>
+        </Variable>
+        <Variable name="urbanairship.application.secret" type="string">
+            <XPath>/App/Attributes/Attribute[Name='urbanairship.application.secret']/Value/text()</XPath>
+        </Variable>
+        <Variable name="glympse.application.key" type="string">
+            <XPath>/App/Attributes/Attribute[Name='glympse.application.key']/Value/text()</XPath>
+        </Variable>
+        <Variable name="glympse.application.secret" type="string">
+            <XPath>/App/Attributes/Attribute[Name='glympse.application.secret']/Value/text()</XPath>
+        </Variable>
+  </XMLPayload>
+</ExtractVariables>
